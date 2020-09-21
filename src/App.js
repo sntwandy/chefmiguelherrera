@@ -1,5 +1,16 @@
 import React from "react";
 
+// Components
+import { Nav } from "./components/Nav";
+
+// Global Styles
+import GlobalStyles from "./styles/GlobalStyles";
+
 export const App = () => {
-  return <h1>I love you Megan E. :)</h1>;
+  return (
+    <>
+      <GlobalStyles />
+      <Nav />
+    </>
+  );
 };
