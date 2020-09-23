@@ -11,6 +11,7 @@ const GlobalStyles = createGlobalStyle`
     margin: 0px;
     padding: 0px;
     font-size: 16px;
+    font-family: "Roboto", sans-serif;
   }
 
   *, *:before, *:after {

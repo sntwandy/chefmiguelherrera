@@ -1,6 +1,7 @@
 import React from "react";
 
 // Components
+import { Home } from "./components/Home";
 import { Nav } from "./components/Nav";
 
 // Global Styles
@@ -10,7 +11,7 @@ export const App = () => {
   return (
     <>
       <GlobalStyles />
-      <Nav />
+      <Home />
     </>
   );
 };
