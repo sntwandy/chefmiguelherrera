@@ -11,6 +11,9 @@ export const Section = styled.section`
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  @media screen and (max-width: 980px) {
+    padding-left: 30px;
+  }
 `;
 
 export const ContentWrap = styled.div`
@@ -23,12 +26,24 @@ export const ContentWrap = styled.div`
 export const Title = styled.h1`
   font-size: 10em;
   font-family: "Dancing Script", cursive;
+  @media screen and (max-width: 980px) {
+    font-size: 5em;
+  }
+  @media screen and (max-width: 450px) {
+    font-size: 3em;
+  }
 `;
 
 export const Name = styled.h3`
   font-size: 7em;
   font-family: "Dancing Script", cursive;
   margin-left: 50px;
+  @media screen and (max-width: 980px) {
+    font-size: 3em;
+  }
+  @media screen and (max-width: 450px) {
+    font-size: 2em;
+  }
 `;
 
 export const Paragraph = styled.p`
@@ -36,6 +51,13 @@ export const Paragraph = styled.p`
   width: 700px;
   margin: 20px 0px;
   font-weight: 300;
+  @media screen and (max-width: 980px) {
+    width: 300px;
+  }
+  @media screen and (max-width: 450px) {
+    font-size: 1em;
+    width: 200px;
+  }
 `;
 
 export const Button = styled.button`
@@ -44,4 +66,9 @@ export const Button = styled.button`
   background-color: #f0a202;
   border-radius: 50px;
   font-size: 1.2em;
+  @media screen and (max-width: 450px) {
+    font-size: 1em;
+    width: 200px;
+    height: 50px;
+  }
 `;
