@@ -1,11 +1,21 @@
 import React from "react";
 
+// Assets
+import assets from "../../assets";
+
+// Components
+import { CreationCard } from "../CreationCard";
+
 // Styles
-import { Section } from "./styles";
+import { Section, Title, ImgWrap, ImgContainer } from "./styles";
 
 export const Creations = () => (
   <Section>
-    <h2>Simplicity in each creation</h2>
-    <div>Photos here</div>
+    <Title>Simplicity in each creation</Title>
+    <ImgContainer>
+      {assets.creationsImages.map(({ id, src }) => (
+        <CreationCard key={id} source={src} />
+      ))}
+    </ImgContainer>
   </Section>
 );
