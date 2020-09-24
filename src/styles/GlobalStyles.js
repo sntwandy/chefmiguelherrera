@@ -12,6 +12,7 @@ const GlobalStyles = createGlobalStyle`
     padding: 0px;
     font-size: 16px;
     font-family: "Roboto", sans-serif;
+    background-color: #F3FAE1
   }
 
   *, *:before, *:after {
