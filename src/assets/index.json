@@ -36,5 +36,23 @@
       "id": 9,
       "src": "https://res.cloudinary.com/dh9cghj6y/image/upload/v1600952288/chefherrera/dzbtfcqsblndqjoebus8.jpg"
     }
+  ],
+  "galleryImages": [
+    {
+      "id": 1,
+      "src": "https://res.cloudinary.com/dh9cghj6y/image/upload/v1600961729/chefherrera/Gallery/qvd3zuhjm1bmffoawnwm.jpg"
+    },
+    {
+      "id": 2,
+      "src": "https://res.cloudinary.com/dh9cghj6y/image/upload/v1600961871/chefherrera/Gallery/nc7bykvvn8y7jxsetsjc.jpg"
+    },
+    {
+      "id": 3,
+      "src": "https://res.cloudinary.com/dh9cghj6y/image/upload/v1600962277/chefherrera/Gallery/vkv3mjffmkl5eyipnvko.jpg"
+    },
+    {
+      "id": 4,
+      "src": "https://res.cloudinary.com/dh9cghj6y/image/upload/v1600962506/chefherrera/Gallery/dosxrdl5rtjbhubgqgjv.jpg"
+    }
   ]
 }

@@ -1,45 +1,17 @@
 import React from "react";
-import Swiper from "react-id-swiper";
+
+// Assets
+import assets from "../../assets";
+
+// Components
+import { SwiperImg } from "../SwiperImg";
 
 // Styles
-import { Section, Title, ImageWrap } from "./styles";
+import { Section, Title } from "./styles";
 
-export const Gallery = () => {
-  const params = {
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  };
-  return (
-    <Section>
-      <Title>Look my gallery</Title>
-      <Swiper {...params}>
-        <ImageWrap>
-          <img
-            src="https://res.cloudinary.com/dh9cghj6y/image/upload/v1600954693/chefherrera/knfefbt7paknfgturcec.png"
-            alt=""
-          />
-        </ImageWrap>
-        <ImageWrap>
-          <img
-            src="https://res.cloudinary.com/dh9cghj6y/image/upload/v1600954693/chefherrera/knfefbt7paknfgturcec.png"
-            alt=""
-          />
-        </ImageWrap>
-        <ImageWrap>
-          <img
-            src="https://res.cloudinary.com/dh9cghj6y/image/upload/v1600954693/chefherrera/knfefbt7paknfgturcec.png"
-            alt=""
-          />
-        </ImageWrap>
-        <ImageWrap>
-          <img
-            src="https://res.cloudinary.com/dh9cghj6y/image/upload/v1600954693/chefherrera/knfefbt7paknfgturcec.png"
-            alt=""
-          />
-        </ImageWrap>
-      </Swiper>
-    </Section>
-  );
-};
+export const Gallery = () => (
+  <Section>
+    <Title>Look my gallery</Title>
+    <SwiperImg assets={assets.galleryImages} />
+  </Section>
+);
