@@ -3,6 +3,7 @@ import React from "react";
 // Components
 import { Home } from "./components/Home";
 import { About } from "./components/About";
+import { Creations } from "./components/Creations";
 import { Nav } from "./components/Nav";
 
 // Global Styles
@@ -14,6 +15,7 @@ export const App = () => {
       <GlobalStyles />
       <Home />
       <About />
+      <Creations />
     </>
   );
 };
