@@ -54,5 +54,77 @@
       "id": 4,
       "src": "https://res.cloudinary.com/dh9cghj6y/image/upload/v1600962506/chefherrera/Gallery/dosxrdl5rtjbhubgqgjv.jpg"
     }
+  ],
+  "experienceResources": [
+    {
+      "place": "Balestraci Restaurant (Massa Marittima)",
+      "position": "Boss",
+      "startDate": "01/Apr/2002",
+      "endDate": "10/Jan/2003",
+      "placeImage": "https://res.cloudinary.com/dh9cghj6y/image/upload/v1601188431/chefherrera/Experience/gzxuaab4r9ok4bmpbym6.png"
+    },
+    {
+      "place": "Hotel & Resort Gran Dominicus (Dom. Rep.)",
+      "position": "Manager",
+      "startDate": "15/Apr/2004",
+      "endDate": "25/Oct/2005",
+      "placeImage": "https://res.cloudinary.com/dh9cghj6y/image/upload/v1601188561/chefherrera/Experience/xkylotmrmhhlzaitzos2.png"
+    },
+    {
+      "place": "Grand Hotel La Esplanada (Dom. Rep.)",
+      "position": "Brigade Chef",
+      "startDate": "01/Jun/2008",
+      "endDate": "30/Sep/2010",
+      "placeImage": "https://res.cloudinary.com/dh9cghj6y/image/upload/v1601188654/chefherrera/Experience/mzswyf2hx1xzhigjjsvg.png"
+    },
+    {
+      "place": "El Mago Grill Restaurant (Sardegna)",
+      "position": "CEO and Founder",
+      "startDate": "01/Jun/2008",
+      "endDate": "30/Sep/2010",
+      "placeImage": "https://res.cloudinary.com/dh9cghj6y/image/upload/v1601190063/chefherrera/Experience/uu0ua5hs6lohon2kpzvs.png"
+    },
+    {
+      "place": "il Tiburon Restaurant (Follonica)",
+      "position": "Chef",
+      "startDate": "01/Apr/2011",
+      "endDate": "30/Sep/2014",
+      "placeImage": "https://res.cloudinary.com/dh9cghj6y/image/upload/v1601190228/chefherrera/Experience/jfscx5evqnmr2uih5g6b.png"
+    },
+    {
+      "place": "Trattoria Waileser Germania (Monaco)",
+      "position": "Executive Chef",
+      "startDate": "15/Oct/2014",
+      "endDate": "25/Feb/2015",
+      "placeImage": "https://res.cloudinary.com/dh9cghj6y/image/upload/v1601190141/chefherrera/Experience/sgfgpnzqsrgdfryewv0e.png"
+    },
+    {
+      "place": "Hotel & Resort Regina Del Mare (Livorno)",
+      "position": "Brigade Chef",
+      "startDate": "01/Jun/2015",
+      "endDate": "30/Oct/2015",
+      "placeImage": "https://res.cloudinary.com/dh9cghj6y/image/upload/v1601190304/chefherrera/Experience/c7doceq5vend3nmgz9n6.png"
+    },
+    {
+      "place": "Uappala Hotel & Resort",
+      "position": "Executive Chef",
+      "startDate": "02/Dec/2015",
+      "endDate": "30/Mar/2016",
+      "placeImage": "https://res.cloudinary.com/dh9cghj6y/image/upload/v1601190228/chefherrera/Experience/jfscx5evqnmr2uih5g6b.png"
+    },
+    {
+      "place": "Hotel & Resort Regina Del Mare (Livorno)",
+      "position": "Brigade Chef",
+      "startDate": "15/Apr/2016",
+      "endDate": "30/Oct/2017",
+      "placeImage": "https://res.cloudinary.com/dh9cghj6y/image/upload/v1601190447/chefherrera/Experience/se627r2dggmm9reurenu.png"
+    },
+    {
+      "place": "Monte Turry Luxury Hotel",
+      "position": "Executive Chef",
+      "startDate": "20/May/2017",
+      "endDate": "08/Oct/2019",
+      "placeImage": "https://res.cloudinary.com/dh9cghj6y/image/upload/v1601184070/chefherrera/Experience/qfpfib0tsicbohrlir71.png"
+    }
   ]
 }
