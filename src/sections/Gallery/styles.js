@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Section = styled.section`
+  height: 100vh;
   width: 100%;
-  max-height: 90%;
 `;
 
 export const Title = styled.h2`

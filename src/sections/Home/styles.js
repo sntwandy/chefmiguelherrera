@@ -66,6 +66,7 @@ export const Button = styled.button`
   background-color: #f0a202;
   border-radius: 50px;
   font-size: 1.2em;
+  box-shadow: 0px 2px 13px -4px #000000;
   @media screen and (max-width: 450px) {
     font-size: 1em;
     width: 200px;

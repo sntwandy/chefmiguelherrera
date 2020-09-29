@@ -1,7 +1,7 @@
 import React from "react";
 
 // Components
-import { ExperienceCard } from "../ExperienceCard";
+import { ExperienceCard } from "../../components/ExperienceCard";
 
 // Styles
 import { Section, Title, CardsWrap, CardsContainer, TextWrap } from "./styles";

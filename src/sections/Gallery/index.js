@@ -4,7 +4,7 @@ import React from "react";
 import assets from "../../assets";
 
 // Components
-import { SwiperImg } from "../SwiperImg";
+import { SwiperImg } from "../../components/SwiperImg";
 
 // Styles
 import { Section, Title } from "./styles";

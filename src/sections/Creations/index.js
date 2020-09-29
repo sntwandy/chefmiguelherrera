@@ -4,10 +4,10 @@ import React from "react";
 import assets from "../../assets";
 
 // Components
-import { CreationCard } from "../CreationCard";
+import { CreationCard } from "../../components/CreationCard";
 
 // Styles
-import { Section, Title, ImgWrap, ImgContainer } from "./styles";
+import { Section, Title, ImgContainer } from "./styles";
 
 export const Creations = () => (
   <Section>

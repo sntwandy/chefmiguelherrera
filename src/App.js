@@ -1,11 +1,12 @@
 import React from "react";
 
 // Components
-import { Home } from "./components/Home";
-import { About } from "./components/About";
-import { Creations } from "./components/Creations";
-import { Gallery } from "./components/Gallery";
-import { Experience } from "./components/Experience";
+import { Home } from "./sections/Home";
+import { About } from "./sections/About";
+import { Creations } from "./sections/Creations";
+import { Gallery } from "./sections/Gallery";
+import { Experience } from "./sections/Experience";
+import { Contact } from "./sections/Contact";
 import { Nav } from "./components/Nav";
 
 // Global Styles
@@ -20,6 +21,7 @@ export const App = () => {
       <Creations />
       <Gallery />
       <Experience />
+      <Contact />
     </>
   );
 };

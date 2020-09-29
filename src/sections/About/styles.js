@@ -21,8 +21,6 @@ export const ImgWrap = styled.div`
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  @media screen and (max-width: 650px) {
-  }
 `;
 
 export const Title = styled.h2`
