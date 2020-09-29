@@ -7,6 +7,7 @@ import { Creations } from "./sections/Creations";
 import { Gallery } from "./sections/Gallery";
 import { Experience } from "./sections/Experience";
 import { Contact } from "./sections/Contact";
+import { Footer } from "./sections/Footer";
 import { Nav } from "./components/Nav";
 
 // Global Styles
@@ -22,6 +23,7 @@ export const App = () => {
       <Gallery />
       <Experience />
       <Contact />
+      <Footer />
     </>
   );
 };
