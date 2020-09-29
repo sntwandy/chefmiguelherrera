@@ -11,7 +11,7 @@ import { Section, Title } from "./styles";
 
 export const Gallery = () => (
   <Section id="Gallery">
-    <Title>Look my gallery</Title>
+    <Title>Guarda la mia galleria</Title>
     <SwiperImg assets={assets.galleryImages} />
   </Section>
 );

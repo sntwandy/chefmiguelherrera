@@ -27,6 +27,9 @@ export const Title = styled.h2`
   font-size: 3.5em;
   font-family: "Dancing Script", cursive;
   margin-left: 20px;
+  @media screen and (max-width: 460px) {
+    font-size: 2.5em;
+  }
 `;
 
 export const Paragraph = styled.p`

@@ -21,13 +21,13 @@ export const Contact = () => (
         <H2>Chef</H2>
         <H3>Miguel Herrera</H3>
       </TitleWrap>
-      <H4>Let's talk!</H4>
+      <H4>Parliamo!</H4>
       <div>
         <Form action="" method="post">
           <input type="text" placeholder="Alessandro Caruso" />
-          <input type="number" placeholder="+39 879 098 9087" />
-          <textarea cols="30" rows="10" placeholder="Tell me about it" />
-          <Button type="submit">Send</Button>
+          <input type="number" placeholder="879 098 9087" />
+          <textarea cols="30" rows="10" placeholder="Parlamene" />
+          <Button type="submit">Spedire</Button>
         </Form>
       </div>
     </ContentWrap>

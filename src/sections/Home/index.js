@@ -9,10 +9,12 @@ export const Home = () => (
       <Title>Chef</Title>
       <Name>Miguel Herrera</Name>
       <Paragraph>
-        “Haute cuisine Chef, passion for quality and the art of creating the
-        best dishes that your palate can taste”.
+        “Chef di alta cucina, passione per la qualità e arte di creare il i
+        migliori piatti che il tuo palato possa assaggiare ".
       </Paragraph>
-      <Button>Know more about me</Button>
+      <a href="#About">
+        <Button>Sapere di più su di me</Button>
+      </a>
     </ContentWrap>
   </Section>
 );

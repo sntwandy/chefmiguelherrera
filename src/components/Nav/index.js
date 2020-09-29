@@ -18,19 +18,19 @@ export const Nav = () => (
     <ListWrap>
       <Ul>
         <a href="#About">
-          <ListItem>About</ListItem>
+          <ListItem>Di me</ListItem>
         </a>
         <a href="#Creations">
-          <ListItem>Creations</ListItem>
+          <ListItem>Creazioni</ListItem>
         </a>
         <a href="#Gallery">
-          <ListItem>Gallery</ListItem>
+          <ListItem>Galleria</ListItem>
         </a>
         <a href="#Experience">
-          <ListItem>Experience</ListItem>
+          <ListItem>Esperienza</ListItem>
         </a>
         <a href="#Contact">
-          <ListItem>Contact</ListItem>
+          <ListItem>Contatto</ListItem>
         </a>
       </Ul>
     </ListWrap>

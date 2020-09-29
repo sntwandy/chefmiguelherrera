@@ -7,9 +7,11 @@
   "license": "MIT",
   "scripts": {
     "dev": "webpack-dev-server --open --development",
-    "build": "webpack --production"
+    "build": "webpack --production",
+    "start": "node server.js"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-id-swiper": "^4.0.0",

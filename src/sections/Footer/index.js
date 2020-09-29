@@ -51,10 +51,10 @@ export const Footer = () => (
         </a>
       </ImgWrap>
     </ContentWrap>
-    <Rights>All Rights Reserved 2020</Rights>
+    <Rights>Tutti i Diritti Riservati 2020</Rights>
     <a href="https://twitter.com/@sntwandy" target="_blank">
       <Develop>
-        Developed by: <Domain>sntwandy.dev</Domain>
+        Sviluppato da: <Domain>sntwandy.dev</Domain>
       </Develop>
     </a>
   </FooterWrap>

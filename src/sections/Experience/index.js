@@ -11,7 +11,7 @@ import assets from "../../assets";
 
 export const Experience = () => (
   <Section id="Experience">
-    <Title>My Experience</Title>
+    <Title>La mia esperienza</Title>
     <CardsWrap>
       <CardsContainer>
         {assets.experienceResources.map((data) => (
@@ -20,7 +20,7 @@ export const Experience = () => (
       </CardsContainer>
     </CardsWrap>
     <TextWrap>
-      <span>"With more than 20 years working in Haute Cuisine"</span>
+      <span>"Con più di 20 anni di lavoro nell'alta cucina"</span>
     </TextWrap>
   </Section>
 );

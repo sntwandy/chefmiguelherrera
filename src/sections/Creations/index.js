@@ -11,7 +11,7 @@ import { Section, Title, ImgContainer } from "./styles";
 
 export const Creations = () => (
   <Section id="Creations">
-    <Title>Simplicity in each creation</Title>
+    <Title>Semplicità in ogni creazione</Title>
     <ImgContainer>
       {assets.creationsImages.map(({ id, src }) => (
         <CreationCard key={id} source={src} />
