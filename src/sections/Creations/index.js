@@ -10,7 +10,7 @@ import { CreationCard } from "../../components/CreationCard";
 import { Section, Title, ImgContainer } from "./styles";
 
 export const Creations = () => (
-  <Section>
+  <Section id="Creations">
     <Title>Simplicity in each creation</Title>
     <ImgContainer>
       {assets.creationsImages.map(({ id, src }) => (

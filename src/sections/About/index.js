@@ -4,7 +4,7 @@ import React from "react";
 import { Section, ContentWrap, ImgWrap, Title, Paragraph } from "./styles";
 
 export const About = () => (
-  <Section>
+  <Section id="About">
     <ContentWrap>
       <Title>About me</Title>
       <Paragraph>

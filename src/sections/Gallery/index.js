@@ -10,7 +10,7 @@ import { SwiperImg } from "../../components/SwiperImg";
 import { Section, Title } from "./styles";
 
 export const Gallery = () => (
-  <Section>
+  <Section id="Gallery">
     <Title>Look my gallery</Title>
     <SwiperImg assets={assets.galleryImages} />
   </Section>

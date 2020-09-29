@@ -4,7 +4,7 @@ import React from "react";
 import { Section, ContentWrap, Title, Name, Paragraph, Button } from "./styles";
 
 export const Home = () => (
-  <Section>
+  <Section id="Home">
     <ContentWrap>
       <Title>Chef</Title>
       <Name>Miguel Herrera</Name>

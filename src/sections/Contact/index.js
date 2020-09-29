@@ -14,7 +14,7 @@ import {
 } from "./styles";
 
 export const Contact = () => (
-  <Section>
+  <Section id="Contact">
     <ImgWrap />
     <ContentWrap>
       <TitleWrap>

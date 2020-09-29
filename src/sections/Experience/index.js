@@ -10,7 +10,7 @@ import { Section, Title, CardsWrap, CardsContainer, TextWrap } from "./styles";
 import assets from "../../assets";
 
 export const Experience = () => (
-  <Section>
+  <Section id="Experience">
     <Title>My Experience</Title>
     <CardsWrap>
       <CardsContainer>

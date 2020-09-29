@@ -17,6 +17,7 @@ export const App = () => {
   return (
     <>
       <GlobalStyles />
+      <Nav />
       <Home />
       <About />
       <Creations />
