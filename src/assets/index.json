@@ -126,5 +126,15 @@
       "endDate": "08/Oct/2019",
       "placeImage": "https://res.cloudinary.com/dh9cghj6y/image/upload/v1601184070/chefherrera/Experience/qfpfib0tsicbohrlir71.png"
     }
+  ],
+  "servicesResources": [
+    {
+      "serviceImage": "https://res.cloudinary.com/dh9cghj6y/image/upload/v1601524104/chefherrera/About/w9ahqbhxafsokn6bqzr7.jpg",
+      "description": "Preparazione dei piatti a vanguardia e delle aspettative dei vostri clienti."
+    },
+    {
+      "serviceImage": "https://res.cloudinary.com/dh9cghj6y/image/upload/v1601524214/chefherrera/About/oprerumpcnhjjyfigooi.jpg",
+      "description": "Piatti Gourmet."
+    }
   ]
 }

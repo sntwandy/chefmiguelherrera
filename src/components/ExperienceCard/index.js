@@ -17,19 +17,26 @@ export const ExperienceCard = ({
   startDate,
   endDate,
   placeImage,
+  serviceImage,
+  description,
 }) => (
   <CardWrap>
     <Figure>
-      <img src={placeImage} alt={place} />
+      <img
+        src={placeImage ? placeImage : serviceImage}
+        alt={place ? place : "Services"}
+      />
     </Figure>
     <InfoWrap>
-      <Place>{place}</Place>
+      <Place>{place ? place : description}</Place>
       <Line />
-      <Position>{position}</Position>
-      <DateWrap>
-        <span>{startDate}</span>
-        <span>{endDate}</span>
-      </DateWrap>
+      {position && <Position>{position}</Position>}
+      {startDate && (
+        <DateWrap>
+          <span>{startDate}</span>
+          <span>{endDate}</span>
+        </DateWrap>
+      )}
     </InfoWrap>
   </CardWrap>
 );

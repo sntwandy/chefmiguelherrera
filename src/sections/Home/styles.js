@@ -56,9 +56,9 @@ export const Paragraph = styled.p`
   color: #f3fae1;
   @media screen and (max-width: 980px) {
     width: 300px;
+    font-size: 1em;
   }
   @media screen and (max-width: 450px) {
-    font-size: 1em;
     width: 200px;
   }
 `;

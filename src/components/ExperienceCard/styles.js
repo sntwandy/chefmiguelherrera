@@ -19,6 +19,8 @@ export const Figure = styled.figure`
   margin: 0px;
   & > img {
     width: 100%;
+    height: 300px;
+    object-fit: cover;
   }
 `;
 
