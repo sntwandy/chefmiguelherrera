@@ -7,7 +7,7 @@ export const Section = styled.section`
   width: 100%;
   height: 100vh;
   padding-left: 100px;
-  background-image: url("https://res.cloudinary.com/dh9cghj6y/image/upload/v1601522790/chefherrera/Home/lpspkyxiwn4s5yc8msvc.jpg");
+  background-image: url("https://res.cloudinary.com/dh9cghj6y/image/upload/v1601530723/chefherrera/Home/mifayvzc7kyzpl8nxqkz.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

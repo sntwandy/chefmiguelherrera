@@ -40,7 +40,7 @@ export const ContentWrap = styled.div`
 export const SlidesWrap = styled.div`
   width: 100%;
   height: 70%;
-  background-image: url("https://res.cloudinary.com/dh9cghj6y/image/upload/v1601523783/chefherrera/About/mqff3tkxvsv2l2jdegws.jpg");
+  background-image: url("https://res.cloudinary.com/dh9cghj6y/image/upload/v1601530878/chefherrera/About/dwc0bfvxesih3uhptmcx.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

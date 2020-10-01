@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Section = styled.section`
   width: 100%;
   height: 100vh;
-  background-image: url("https://res.cloudinary.com/dh9cghj6y/image/upload/v1601187424/chefherrera/Experience/ndmvon2d6khhbv4mggey.jpg");
+  background-image: url("https://res.cloudinary.com/dh9cghj6y/image/upload/v1601531221/chefherrera/Experience/f4o7upd43ogjnyyvczkl.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
