@@ -7,17 +7,18 @@ export const ImageWrap = styled.div`
   justify-content: center;
   height: 80vh;
   @media screen and (max-width: 1000px) {
-    height: 50vh;
+    height: 70vh;
   }
   @media screen and (max-width: 700px) {
-    height: 30vh;
+    height: 60vh;
   }
   @media screen and (max-width: 450px) {
-    height: 20vh;
+    height: 50vh;
   }
   & > img {
-    width: 90%;
-    height: -webkit-fill-available;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
   }
 `;

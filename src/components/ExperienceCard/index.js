@@ -19,13 +19,20 @@ export const ExperienceCard = ({
   placeImage,
   serviceImage,
   description,
+  serviceVideo,
 }) => (
   <CardWrap>
     <Figure>
-      <img
-        src={placeImage ? placeImage : serviceImage}
-        alt={place ? place : "Services"}
-      />
+      {serviceVideo ? (
+        <video width="300" height="300" controls>
+          <source src={serviceVideo} type="video/mp4" />
+        </video>
+      ) : (
+        <img
+          src={placeImage ? placeImage : serviceImage}
+          alt={place ? place : "Services"}
+        />
+      )}
     </Figure>
     <InfoWrap>
       <Place>{place ? place : description}</Place>
