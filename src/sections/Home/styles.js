@@ -7,7 +7,7 @@ export const Section = styled.section`
   width: 100%;
   height: 100vh;
   padding-left: 100px;
-  background-image: url("https://res.cloudinary.com/dh9cghj6y/image/upload/v1600870110/chefherrera/m3ng2wldowrdvbwmppnr.jpg");
+  background-image: url("https://res.cloudinary.com/dh9cghj6y/image/upload/v1601522790/chefherrera/Home/lpspkyxiwn4s5yc8msvc.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -26,6 +26,7 @@ export const ContentWrap = styled.div`
 export const Title = styled.h1`
   font-size: 10em;
   font-family: "Dancing Script", cursive;
+  color: #f0a202;
   @media screen and (max-width: 980px) {
     font-size: 5em;
   }
@@ -38,6 +39,7 @@ export const Name = styled.h3`
   font-size: 7em;
   font-family: "Dancing Script", cursive;
   margin-left: 50px;
+  color: #f0a202;
   @media screen and (max-width: 980px) {
     font-size: 3em;
   }
@@ -51,6 +53,7 @@ export const Paragraph = styled.p`
   width: 700px;
   margin: 20px 0px;
   font-weight: 300;
+  color: #f3fae1;
   @media screen and (max-width: 980px) {
     width: 300px;
   }
@@ -60,13 +63,19 @@ export const Paragraph = styled.p`
   }
 `;
 
+export const Word = styled.span`
+  color: #f0a202;
+  font-family: "Dancing Script", cursive;
+`;
+
 export const Button = styled.button`
-  width: 247px;
+  width: 200px;
   height: 60px;
   background-color: #f0a202;
   border-radius: 50px;
   font-size: 1.2em;
   box-shadow: 0px 2px 13px -4px #000000;
+  font-weight: 700;
   @media screen and (max-width: 450px) {
     font-size: 1em;
     width: 200px;
