@@ -18,7 +18,7 @@ export const Nav = () => (
     <ListWrap>
       <Ul>
         <a href="#About">
-          <ListItem>Di me</ListItem>
+          <ListItem>Conoscici</ListItem>
         </a>
         <a href="#Creations">
           <ListItem>Creazioni</ListItem>
